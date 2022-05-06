@@ -33,8 +33,6 @@ public class UsuarioController {
         usuarioDao.registrar(usuario);
     }
 
-
-
     @RequestMapping(value = "api/usuarios/{id}",method = RequestMethod.DELETE)
     public void Eliminar(@PathVariable Long id){
         usuarioDao.eliminar(id);
