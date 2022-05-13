@@ -20,5 +20,7 @@ public class AuthController {
             return "OK";
         }
         return "FAIL";
+
+
     }
 }
